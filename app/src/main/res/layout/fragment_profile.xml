@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.internshala.bookhub.fragment.ProfileFragment"
+    android:background="#ffffff">
+
+    <ImageView
+        android:id="@+id/imgProfileGirl"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/my_profile_girl"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/imgProfileGirl"
+        android:background="@color/colorPrimary"
+        android:text="@string/shruti_gupta"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/btnPhoneNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/btnName"
+        android:background="@color/colorPrimary"
+        android:text="@string/_91_5557779999"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/btnEmailId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/btnPhoneNo"
+        android:background="@color/colorPrimary"
+        android:text="@string/shruti_gmail_com"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/btnPlace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/btnEmailId"
+        android:background="@color/colorPrimary"
+        android:text="@string/delhi"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#ffffff"/>
+
+
+
+</RelativeLayout>
